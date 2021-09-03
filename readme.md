@@ -4,10 +4,6 @@
 ![Code Style Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/Novatics/eslint-config-react-typescript/blob/master/LICENSE)
 
-Uma abordagem bastante razoável para React Javascript / TSX
-
-Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript, embora algumas convenções possam variar adotamos e estendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
-
 ## Melhores práticas
 
 Guia de estilo do Airbnb React / JSX
