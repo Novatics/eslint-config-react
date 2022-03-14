@@ -16,7 +16,7 @@ const react = {
   "react/destructuring-assignment": OFF,
   "no-restricted-exports": OFF,
   "react/no-unstable-nested-components": OFF,
-  // This option enforces a specific function type for function components.
+  // This option enforces a specific function type for `function components.
   "react/function-component-definition": OFF,
   // Arquivos que podem usar o conceito de JSX
   "react/jsx-props-no-spreading": OFF,
