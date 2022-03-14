@@ -11,6 +11,13 @@ const react = {
       extensions: [".ts", ".tsx", "js", "jsx"],
     },
   ],
+  "react/prop-types": OFF,
+  "import/named": OFF,
+  "react/destructuring-assignment": OFF,
+  "no-restricted-exports": OFF,
+  "react/no-unstable-nested-components": OFF,
+  // This option enforces a specific function type for function components.
+  "react/function-component-definition": OFF,
   // Arquivos que podem usar o conceito de JSX
   "react/jsx-props-no-spreading": OFF,
   // Desabilita a regra de não fazer spread em props exemplo: <div {...props} /> agora é aceito.
@@ -38,7 +45,7 @@ const react = {
   // Ponto e virgular sempre
   complexity: ["error", 5],
   // Máximo de complexidade em uma função ou arquivo
-  camelcase: "off",
+  camelcase: OFF,
   "semi-spacing": [
     "error",
     {
@@ -103,6 +110,22 @@ const react = {
       allowArrowFunctions: true,
     },
   ], // Obriga sempre usar arrow function
+  // Liberar o uso de pacotes de desenvolvimento nos arquivos de testes
+  "import/no-extraneous-dependencies": [
+    ERROR,
+    {
+      devDependencies: [
+        "src/setupTests.ts",
+        "src/__mocks__/mock.ts",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.test.jsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.spec.jsx",
+      ],
+    },
+  ],
 };
 
 export default react;
