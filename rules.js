@@ -128,4 +128,4 @@ const react = {
   ],
 };
 
-export default react;
+module.exports = react;

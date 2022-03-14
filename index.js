@@ -1,4 +1,4 @@
-import rules from "./rules";
+const rules = require("./rules");
 
 const config = {
   globals: {
